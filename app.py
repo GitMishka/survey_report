@@ -13,9 +13,6 @@ q1_df = df_dict.get("q1_df")
 q2_df = df_dict.get("q2_df")
 
 
-
-q1_df
-
 # q1_df['Survey Metadata - End Date (+00:00 GMT)'] = pd.to_datetime(q1_df['Survey Metadata - End Date (+00:00 GMT)'])
 
 # # Determine the most recent month
@@ -24,9 +21,6 @@ q1_df
 # # Filter the data to only include rows from the most recent month
 # latest_data = q1_df[q1_df['Survey Metadata - End Date (+00:00 GMT)'].dt.to_period('M') == latest_month]
 # latest_data
-
-
-
 
 
 # Merge the dataframes on the specified columns
